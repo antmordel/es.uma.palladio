@@ -1,0 +1,14 @@
+#Launch configuration for e-Motions
+#Tue Dec 20 11:58:42 CET 2016
+systemModel=/es.uma.palladio.minimumexample/palladio_files/default.system
+behaviorModel=/es.uma.palladio/rules/PalladioRules.behavior
+metamodel=/es.uma.palladio/syntax/FlattenPalladioMM.ecore
+resenvModel=/es.uma.palladio.minimumexample/palladio_files/My.resourceenvironment
+printRules=true
+usageModel=/es.uma.palladio.minimumexample/palladio_files/default.usagemodel
+timeLimit=100
+repositoryModel=/es.uma.palladio.minimumexample/palladio_files/default.repository
+ouputFolder=/es.uma.palladio.minimumexample/maude_output
+isInfinite=false
+allocationModel=/es.uma.palladio.minimumexample/palladio_files/default.allocation
+printAdvisories=false

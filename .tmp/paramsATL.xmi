@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ATLParameters:ParametersList xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ATLParameters="http://www.lcc.uma.es/ATLParameters/1.0">
+  <params name="modelName" value="PALLADIOFLATTENINITMODEL"/>
+</ATLParameters:ParametersList>

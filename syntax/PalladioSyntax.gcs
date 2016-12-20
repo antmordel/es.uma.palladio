@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gcs:MetamodelGD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gcs="http://www.lcc.uma.es/GCS/1.0" name="@PCMFLATTEN@">
+  <packagesGD name="pcmFlattenPalladioMM">
+    <classesGD name="PCMpcmDummyClass">
+      <class href="FlattenPalladioMM.ecore#//PCMpcmDummyClass"/>
+    </classesGD>
+    <classesGD name="PCMcorePCMRandomVariable">
+      <class href="FlattenPalladioMM.ecore#//PCMcorePCMRandomVariable"/>
+    </classesGD>
+    <classesGD name="PCMentityResourceProvidedRole">
+      <class href="FlattenPalladioMM.ecore#//PCMentityResourceProvidedRole"/>
+    </classesGD>
+    <classesGD name="PCMentityInterfaceProvidingRequiringEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityInterfaceProvidingRequiringEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityInterfaceProvidingEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityInterfaceProvidingEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityInterfaceRequiringEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityInterfaceRequiringEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityResourceInterfaceRequiringEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityResourceInterfaceRequiringEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityResourceRequiredRole">
+      <class href="FlattenPalladioMM.ecore#//PCMentityResourceRequiredRole"/>
+    </classesGD>
+    <classesGD name="PCMentityResourceInterfaceProvidingEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityResourceInterfaceProvidingEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityComposedProvidingRequiringEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityComposedProvidingRequiringEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityNamedElement">
+      <class href="FlattenPalladioMM.ecore#//PCMentityNamedElement"/>
+    </classesGD>
+    <classesGD name="PCMentityResourceInterfaceProvidingRequiringEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityResourceInterfaceProvidingRequiringEntity"/>
+    </classesGD>
+    <classesGD name="PCMentityEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMentityEntity"/>
+    </classesGD>
+    <classesGD name="PCMcompositionDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionComposedStructure">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionComposedStructure"/>
+    </classesGD>
+    <classesGD name="PCMcompositionResourceRequiredDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionResourceRequiredDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionEventChannel">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionEventChannel"/>
+    </classesGD>
+    <classesGD name="PCMcompositionEventChannelSourceConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionEventChannelSourceConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionEventChannelSinkConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionEventChannelSinkConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionProvidedDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionProvidedDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionRequiredDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionRequiredDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionAssemblyConnector" figurePath="/es.uma.palladio/imgs/AssemblyConnector.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionAssemblyConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionAssemblyEventConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionAssemblyEventConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionSourceDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionSourceDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionSinkDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionSinkDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionAssemblyInfrastructureConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionAssemblyInfrastructureConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionProvidedInfrastructureDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionProvidedInfrastructureDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionRequiredInfrastructureDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionRequiredInfrastructureDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionRequiredResourceDelegationConnector">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionRequiredResourceDelegationConnector"/>
+    </classesGD>
+    <classesGD name="PCMcompositionAssemblyContext" figurePath="/es.uma.palladio/imgs/AssemblyContext.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMcompositionAssemblyContext"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelWorkload">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelWorkload"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelUsageScenario" figurePath="/es.uma.palladio/imgs/UsageScenario.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelUsageScenario"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelUserData">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelUserData"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelUsageModel">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelUsageModel"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelEntryLevelSystemCall" figurePath="/es.uma.palladio/imgs/EntryLevelSystemCall.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelEntryLevelSystemCall"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelAbstractUserAction">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelAbstractUserAction"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelScenarioBehaviour" figurePath="/es.uma.palladio/imgs/ScenarioBehaviour.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelScenarioBehaviour"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelBranchTransition" figurePath="/es.uma.palladio/imgs/BranchTransition.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelBranchTransition"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelBranch" figurePath="/es.uma.palladio/imgs/Branch.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelBranch"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelLoop" figurePath="/es.uma.palladio/imgs/Loop.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelLoop"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelStop" figurePath="/es.uma.palladio/imgs/Stop.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelStop"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelStart" figurePath="/es.uma.palladio/imgs/Start.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelStart"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelOpenWorkload" figurePath="/es.uma.palladio/imgs/OpenWorkload.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelOpenWorkload"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelDelay" figurePath="/es.uma.palladio/imgs/Delay.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelDelay"/>
+    </classesGD>
+    <classesGD name="PCMusagemodelClosedWorkload" figurePath="/es.uma.palladio/imgs/ClosedWorkload.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMusagemodelClosedWorkload"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryPassiveResource">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryPassiveResource"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryBasicComponent" figurePath="/es.uma.palladio/imgs/BasicComponent.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryBasicComponent"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryImplementationComponentType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryImplementationComponentType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryRepositoryComponent">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryRepositoryComponent"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryProvidedRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryProvidedRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryParameter">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryParameter"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryDataType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryDataType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryRepository">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryRepository"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInterface">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInterface"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryRequiredCharacterisation">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryRequiredCharacterisation"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryEventGroup">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryEventGroup"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryEventType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryEventType"/>
+    </classesGD>
+    <classesGD name="PCMrepositorySignature" figurePath="/es.uma.palladio/imgs/Signature.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositorySignature"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryExceptionType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryExceptionType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInfrastructureSignature">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInfrastructureSignature"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInfrastructureInterface">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInfrastructureInterface"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInfrastructureRequiredRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInfrastructureRequiredRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryRequiredRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryRequiredRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryOperationSignature" figurePath="/es.uma.palladio/imgs/Signature.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryOperationSignature"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryOperationInterface">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryOperationInterface"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryOperationRequiredRole" figurePath="/es.uma.palladio/imgs/OperationRequiredRole.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryOperationRequiredRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositorySourceRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositorySourceRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositorySinkRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositorySinkRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryOperationProvidedRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryOperationProvidedRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInfrastructureProvidedRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInfrastructureProvidedRole"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryCompleteComponentType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryCompleteComponentType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryProvidesComponentType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryProvidesComponentType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryCompositeComponent">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryCompositeComponent"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryPrimitiveDataType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryPrimitiveDataType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryCollectionDataType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryCollectionDataType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryCompositeDataType">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryCompositeDataType"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryInnerDeclaration">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryInnerDeclaration"/>
+    </classesGD>
+    <classesGD name="PCMrepositoryRole">
+      <class href="FlattenPalladioMM.ecore#//PCMrepositoryRole"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeResourceSignature">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeResourceSignature"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeProcessingResourceType" figurePath="/es.uma.palladio/imgs/ProcessingResourceType.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeProcessingResourceType"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeResourceType">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeResourceType"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeResourceRepository">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeResourceRepository"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeSchedulingPolicy" figurePath="/es.uma.palladio/imgs/SchedulingPolicy.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeSchedulingPolicy"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeCommunicationLinkResourceType">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeCommunicationLinkResourceType"/>
+    </classesGD>
+    <classesGD name="PCMresourcetypeResourceInterface">
+      <class href="FlattenPalladioMM.ecore#//PCMresourcetypeResourceInterface"/>
+    </classesGD>
+    <classesGD name="PCMprotocolProtocol">
+      <class href="FlattenPalladioMM.ecore#//PCMprotocolProtocol"/>
+    </classesGD>
+    <classesGD name="PCMparameterVariableUsage">
+      <class href="FlattenPalladioMM.ecore#//PCMparameterVariableUsage"/>
+    </classesGD>
+    <classesGD name="PCMparameterVariableCharacterisation">
+      <class href="FlattenPalladioMM.ecore#//PCMparameterVariableCharacterisation"/>
+    </classesGD>
+    <classesGD name="PCMparameterCharacterisedVariable">
+      <class href="FlattenPalladioMM.ecore#//PCMparameterCharacterisedVariable"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityFailureOccurrenceDescription">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityFailureOccurrenceDescription"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityHardwareInducedFailureType">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityHardwareInducedFailureType"/>
+    </classesGD>
+    <classesGD name="PCMreliabilitySoftwareInducedFailureType">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilitySoftwareInducedFailureType"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityInternalFailureOccurrenceDescription">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityInternalFailureOccurrenceDescription"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityNetworkInducedFailureType">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityNetworkInducedFailureType"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityExternalFailureOccurrenceDescription">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityExternalFailureOccurrenceDescription"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityResourceTimeoutFailureType">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityResourceTimeoutFailureType"/>
+    </classesGD>
+    <classesGD name="PCMreliabilityFailureType">
+      <class href="FlattenPalladioMM.ecore#//PCMreliabilityFailureType"/>
+    </classesGD>
+    <classesGD name="PCMseffStopAction" figurePath="/es.uma.palladio/imgs/StopAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffStopAction"/>
+    </classesGD>
+    <classesGD name="PCMseffAbstractInternalControlFlowAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffAbstractInternalControlFlowAction"/>
+    </classesGD>
+    <classesGD name="PCMseffAbstractAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffAbstractAction"/>
+    </classesGD>
+    <classesGD name="PCMseffResourceDemandingBehaviour" figurePath="/es.uma.palladio/imgs/ResourceDemandingBehaviour.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffResourceDemandingBehaviour"/>
+    </classesGD>
+    <classesGD name="PCMseffAbstractLoopAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffAbstractLoopAction"/>
+    </classesGD>
+    <classesGD name="PCMseffAbstractBranchTransition">
+      <class href="FlattenPalladioMM.ecore#//PCMseffAbstractBranchTransition"/>
+    </classesGD>
+    <classesGD name="PCMseffBranchAction" figurePath="/es.uma.palladio/imgs/BranchAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffBranchAction"/>
+    </classesGD>
+    <classesGD name="PCMseffCallAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffCallAction"/>
+    </classesGD>
+    <classesGD name="PCMseffStartAction" figurePath="/es.uma.palladio/imgs/StartAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffStartAction"/>
+    </classesGD>
+    <classesGD name="PCMseffServiceEffectSpecification">
+      <class href="FlattenPalladioMM.ecore#//PCMseffServiceEffectSpecification"/>
+    </classesGD>
+    <classesGD name="PCMseffResourceDemandingSEFF" figurePath="/es.uma.palladio/imgs/ResourceDemandingSEFF.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffResourceDemandingSEFF"/>
+    </classesGD>
+    <classesGD name="PCMseffResourceDemandingInternalBehaviour">
+      <class href="FlattenPalladioMM.ecore#//PCMseffResourceDemandingInternalBehaviour"/>
+    </classesGD>
+    <classesGD name="PCMseffReleaseAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffReleaseAction"/>
+    </classesGD>
+    <classesGD name="PCMseffLoopAction" figurePath="/es.uma.palladio/imgs/LoopAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffLoopAction"/>
+    </classesGD>
+    <classesGD name="PCMseffForkAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffForkAction"/>
+    </classesGD>
+    <classesGD name="PCMseffForkedBehaviour">
+      <class href="FlattenPalladioMM.ecore#//PCMseffForkedBehaviour"/>
+    </classesGD>
+    <classesGD name="PCMseffSynchronisationPoint">
+      <class href="FlattenPalladioMM.ecore#//PCMseffSynchronisationPoint"/>
+    </classesGD>
+    <classesGD name="PCMseffExternalCallAction" figurePath="/es.uma.palladio/imgs/ExternalCallAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffExternalCallAction"/>
+    </classesGD>
+    <classesGD name="PCMseffCallReturnAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffCallReturnAction"/>
+    </classesGD>
+    <classesGD name="PCMseffProbabilisticBranchTransition" figurePath="/es.uma.palladio/imgs/ProbabilisticBranchTransition.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffProbabilisticBranchTransition"/>
+    </classesGD>
+    <classesGD name="PCMseffAcquireAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffAcquireAction"/>
+    </classesGD>
+    <classesGD name="PCMseffCollectionIteratorAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffCollectionIteratorAction"/>
+    </classesGD>
+    <classesGD name="PCMseffGuardedBranchTransition">
+      <class href="FlattenPalladioMM.ecore#//PCMseffGuardedBranchTransition"/>
+    </classesGD>
+    <classesGD name="PCMseffSetVariableAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffSetVariableAction"/>
+    </classesGD>
+    <classesGD name="PCMseffInternalCallAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffInternalCallAction"/>
+    </classesGD>
+    <classesGD name="PCMseffEmitEventAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseffEmitEventAction"/>
+    </classesGD>
+    <classesGD name="PCMseffInternalAction" figurePath="/es.uma.palladio/imgs/InternalAction.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffInternalAction"/>
+    </classesGD>
+    <classesGD name="PCMseff_performanceInfrastructureCall">
+      <class href="FlattenPalladioMM.ecore#//PCMseff_performanceInfrastructureCall"/>
+    </classesGD>
+    <classesGD name="PCMseff_performanceResourceCall">
+      <class href="FlattenPalladioMM.ecore#//PCMseff_performanceResourceCall"/>
+    </classesGD>
+    <classesGD name="PCMseffperformanceParametricResourceDemand" figurePath="/es.uma.palladio/imgs/ParametricResourceDemand.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMseffperformanceParametricResourceDemand"/>
+    </classesGD>
+    <classesGD name="PCMseff_reliabilityRecoveryActionBehaviour">
+      <class href="FlattenPalladioMM.ecore#//PCMseff_reliabilityRecoveryActionBehaviour"/>
+    </classesGD>
+    <classesGD name="PCMseff_reliabilityRecoveryAction">
+      <class href="FlattenPalladioMM.ecore#//PCMseff_reliabilityRecoveryAction"/>
+    </classesGD>
+    <classesGD name="PCMseff_reliabilityFailureHandlingEntity">
+      <class href="FlattenPalladioMM.ecore#//PCMseff_reliabilityFailureHandlingEntity"/>
+    </classesGD>
+    <classesGD name="PCMqosannotationsSpecifiedQoSAnnotation">
+      <class href="FlattenPalladioMM.ecore#//PCMqosannotationsSpecifiedQoSAnnotation"/>
+    </classesGD>
+    <classesGD name="PCMqosannotationsQoSAnnotations">
+      <class href="FlattenPalladioMM.ecore#//PCMqosannotationsQoSAnnotations"/>
+    </classesGD>
+    <classesGD name="PCMqosannotationsSpecifiedOutputParameterAbstraction">
+      <class href="FlattenPalladioMM.ecore#//PCMqosannotationsSpecifiedOutputParameterAbstraction"/>
+    </classesGD>
+    <classesGD name="PCMqos_performanceSystemSpecifiedExecutionTime">
+      <class href="FlattenPalladioMM.ecore#//PCMqos_performanceSystemSpecifiedExecutionTime"/>
+    </classesGD>
+    <classesGD name="PCMqos_performanceSpecifiedExecutionTime">
+      <class href="FlattenPalladioMM.ecore#//PCMqos_performanceSpecifiedExecutionTime"/>
+    </classesGD>
+    <classesGD name="PCMqos_performanceComponentSpecifiedExecutionTime">
+      <class href="FlattenPalladioMM.ecore#//PCMqos_performanceComponentSpecifiedExecutionTime"/>
+    </classesGD>
+    <classesGD name="PCMqos_reliabilitySpecifiedReliabilityAnnotation">
+      <class href="FlattenPalladioMM.ecore#//PCMqos_reliabilitySpecifiedReliabilityAnnotation"/>
+    </classesGD>
+    <classesGD name="PCMsystemSystem">
+      <class href="FlattenPalladioMM.ecore#//PCMsystemSystem"/>
+    </classesGD>
+    <classesGD name="PCMresourceenvironmentResourceEnvironment">
+      <class href="FlattenPalladioMM.ecore#//PCMresourceenvironmentResourceEnvironment"/>
+    </classesGD>
+    <classesGD name="PCMresourceenvironmentLinkingResource">
+      <class href="FlattenPalladioMM.ecore#//PCMresourceenvironmentLinkingResource"/>
+    </classesGD>
+    <classesGD name="PCMresourceenvironmentResourceContainer" figurePath="/es.uma.palladio/imgs/ResourceContainer.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMresourceenvironmentResourceContainer"/>
+    </classesGD>
+    <classesGD name="PCMresourceenvironmentProcessingResourceSpecification" figurePath="/es.uma.palladio/imgs/ProcessingResourceSpecification.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMresourceenvironmentProcessingResourceSpecification"/>
+    </classesGD>
+    <classesGD name="PCMresourceenvironmentCommunicationLinkResourceSpecification">
+      <class href="FlattenPalladioMM.ecore#//PCMresourceenvironmentCommunicationLinkResourceSpecification"/>
+    </classesGD>
+    <classesGD name="PCMallocationAllocationContext" figurePath="/es.uma.palladio/imgs/AllocationContext.gif">
+      <class href="FlattenPalladioMM.ecore#//PCMallocationAllocationContext"/>
+    </classesGD>
+    <classesGD name="PCMallocationAllocation">
+      <class href="FlattenPalladioMM.ecore#//PCMallocationAllocation"/>
+    </classesGD>
+    <classesGD name="PCMsubsystemSubSystem">
+      <class href="FlattenPalladioMM.ecore#//PCMsubsystemSubSystem"/>
+    </classesGD>
+    <classesGD name="STOEXstoexVariableReference">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexVariableReference"/>
+    </classesGD>
+    <classesGD name="STOEXstoexAbstractNamedReference">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexAbstractNamedReference"/>
+    </classesGD>
+    <classesGD name="STOEXstoexNamespaceReference">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexNamespaceReference"/>
+    </classesGD>
+    <classesGD name="STOEXstoexVariable">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexVariable"/>
+    </classesGD>
+    <classesGD name="STOEXstoexAtom">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexAtom"/>
+    </classesGD>
+    <classesGD name="STOEXstoexUnary">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexUnary"/>
+    </classesGD>
+    <classesGD name="STOEXstoexPower">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexPower"/>
+    </classesGD>
+    <classesGD name="STOEXstoexProduct">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexProduct"/>
+    </classesGD>
+    <classesGD name="STOEXstoexTerm">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexTerm"/>
+    </classesGD>
+    <classesGD name="STOEXstoexComparison">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexComparison"/>
+    </classesGD>
+    <classesGD name="STOEXstoexBooleanExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexBooleanExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexIfElse">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexIfElse"/>
+    </classesGD>
+    <classesGD name="STOEXstoexExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexTermExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexTermExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexProductExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexProductExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexProbabilityFunctionLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexProbabilityFunctionLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexParenthesis">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexParenthesis"/>
+    </classesGD>
+    <classesGD name="STOEXstoexNumericLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexNumericLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexIntLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexIntLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexDoubleLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexDoubleLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexCompareExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexCompareExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexBoolLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexBoolLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexStringLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexStringLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexPowerExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexPowerExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexBooleanOperatorExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexBooleanOperatorExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexNotExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexNotExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexNegativeExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexNegativeExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexFunctionLiteral">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexFunctionLiteral"/>
+    </classesGD>
+    <classesGD name="STOEXstoexIfElseExpression">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexIfElseExpression"/>
+    </classesGD>
+    <classesGD name="STOEXstoexRandomVariable">
+      <class href="FlattenPalladioMM.ecore#//STOEXstoexRandomVariable"/>
+    </classesGD>
+    <classesGD name="UNITSunitsBaseUnit">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsBaseUnit"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnitRepository">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnitRepository"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnit">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnit"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnitMultiplication">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnitMultiplication"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnitPower">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnitPower"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnitLiteral">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnitLiteral"/>
+    </classesGD>
+    <classesGD name="UNITSunitsUnitCarryingElement">
+      <class href="FlattenPalladioMM.ecore#//UNITSunitsUnitCarryingElement"/>
+    </classesGD>
+    <classesGD name="IDENTIFIERidentifierIdentifier">
+      <class href="FlattenPalladioMM.ecore#//IDENTIFIERidentifierIdentifier"/>
+    </classesGD>
+    <classesGD name="TOKENtokensSEFFToken" figurePath="/es.uma.palladio/imgs/TokenSEFF.gif">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensSEFFToken"/>
+    </classesGD>
+    <classesGD name="TOKENtokensTokenProb">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensTokenProb"/>
+    </classesGD>
+    <classesGD name="ObTimeStamp" figurePath="/es.uma.palladio/imgs/Glass-24-TS.png">
+      <class href="FlattenPalladioMM.ecore#//ObTimeStamp"/>
+    </classesGD>
+    <classesGD name="ObResponseTime" figurePath="/es.uma.palladio/imgs/Glass-24-RT.png">
+      <class href="FlattenPalladioMM.ecore#//ObResponseTime"/>
+    </classesGD>
+    <classesGD name="TOKENtokensUSToken" figurePath="/es.uma.palladio/imgs/TokenUsage.gif">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensUSToken"/>
+    </classesGD>
+    <classesGD name="ObThroughPut" figurePath="/es.uma.palladio/imgs/ObserverThroughput.jpg">
+      <class href="FlattenPalladioMM.ecore#//ObThroughPut"/>
+    </classesGD>
+    <classesGD name="TOKENtokensSEFFLoopToken" figurePath="/es.uma.palladio/imgs/TokenLoop.gif">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensSEFFLoopToken"/>
+    </classesGD>
+    <classesGD name="TOKENtokensSandTimer" figurePath="/es.uma.palladio/imgs/SandTimer.png">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensSandTimer"/>
+    </classesGD>
+    <classesGD name="TOKENtokensUSLoopToken" figurePath="/es.uma.palladio/imgs/TokenLoop.gif">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensUSLoopToken"/>
+    </classesGD>
+    <classesGD name="TOKENtokensRETURNVar">
+      <class href="FlattenPalladioMM.ecore#//TOKENtokensRETURNVar"/>
+    </classesGD>
+    <package href="FlattenPalladioMM.ecore#/"/>
+  </packagesGD>
+</gcs:MetamodelGD>

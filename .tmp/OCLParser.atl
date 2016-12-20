@@ -1,0 +1,437 @@
+library oclBehavior; -- Library Template
+
+helper def: "0" : String =
+0;
+
+helper def: "eMotions.parseExp(ow.interArrivalTime_OpenWorkload.specification, Set{})" : String =
+eMotions.parseExp(ow.interArrivalTime_OpenWorkload.specification, Set{});
+
+helper def: "0" : String =
+0;
+
+helper def: "owRate" : String =
+owRate;
+
+helper def: "clk.time" : String =
+clk.time;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "false" : String =
+false;
+
+helper def: "0" : String =
+0;
+
+helper def: "clk.time - ts.tStamp" : String =
+clk.time - ts.tStamp;
+
+helper def: "false" : String =
+false;
+
+helper def: "rt.counter + 1" : String =
+rt.counter + 1;
+
+helper def: "rt.tTime + thisRT" : String =
+rt.tTime + thisRT;
+
+helper def: "rt.allRT->append(thisRT)" : String =
+rt.allRT->append(thisRT);
+
+helper def: "(rt.tTime + thisRT * 1.0) / (rt.counter + 1.0)" : String =
+(rt.tTime + thisRT * 1.0) / (rt.counter + 1.0);
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "sToken.cToken.oclIsUndefined()" : String =
+sToken.cToken.oclIsUndefined();
+
+helper def: "false" : String =
+false;
+
+helper def: "elsc.inputParameterUsages_EntryLevelSystemCall->including(assCtx.configParameterUsages__AssemblyContext)->flatten()" : String =
+elsc.inputParameterUsages_EntryLevelSystemCall->including(assCtx.configParameterUsages__AssemblyContext)->flatten();
+
+helper def: "false" : String =
+false;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "not succ.oclIsTypeOf(PCMseffInternalAction)" : String =
+not succ.oclIsTypeOf(PCMseffInternalAction);
+
+helper def: "false" : String =
+false;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "token.branchesProb->iterate(v; i : Integer = 1 | if token.prob <= (token.branchesProb->subSequence(1, i)->sum())  then i else i + 1 endif)" : String =
+token.branchesProb->iterate(v; i : Integer = 1 | if token.prob <= (token.branchesProb->subSequence(1, i)->sum())  then i else i + 1 endif);
+
+helper def: "false" : String =
+false;
+
+helper def: "token.branchNumber < 1" : String =
+token.branchNumber < 1;
+
+helper def: "token.branchesProb->size() > 0" : String =
+token.branchesProb->size() > 0;
+
+helper def: "false" : String =
+false;
+
+helper def: "branchNumberAux" : String =
+branchNumberAux;
+
+helper def: "spec" : String =
+spec;
+
+helper def: "eMotions.parseExp(delay.timeSpecification_Delay.specification, sToken.context)" : String =
+eMotions.parseExp(delay.timeSpecification_Delay.specification, sToken.context);
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "b.branchTransitions_Branch->collect(S | (S.branchProbability * 1000).round())->asSequence()" : String =
+b.branchTransitions_Branch->collect(S | (S.branchProbability * 1000).round())->asSequence();
+
+helper def: "eMotions.random(1000) + 1" : String =
+eMotions.random(1000) + 1;
+
+helper def: "auxSeq->iterate(v; i : Integer = 1 | if prob <= (auxSeq->subSequence(1, i)->sum())  then i else i + 1 endif)" : String =
+auxSeq->iterate(v; i : Integer = 1 | if prob <= (auxSeq->subSequence(1, i)->sum())  then i else i + 1 endif);
+
+helper def: "false" : String =
+false;
+
+helper def: "t.prob = 0" : String =
+t.prob = 0;
+
+helper def: "branchNumberAux" : String =
+branchNumberAux;
+
+helper def: "prob" : String =
+prob;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "t.nestedToken.oclIsUndefined()" : String =
+t.nestedToken.oclIsUndefined();
+
+helper def: "false" : String =
+false;
+
+helper def: "t.context->union(eca.inputVariableUsages__CallAction)->union(calledAllCtx.configParameterUsages__AssemblyContext)" : String =
+t.context->union(eca.inputVariableUsages__CallAction)->union(calledAllCtx.configParameterUsages__AssemblyContext);
+
+helper def: "0" : String =
+0;
+
+helper def: "eMotions.parseExp(loop.iterationCount_LoopAction.specification, t.context)" : String =
+eMotions.parseExp(loop.iterationCount_LoopAction.specification, t.context);
+
+helper def: "false" : String =
+false;
+
+helper def: "t.loopToken.oclIsUndefined()" : String =
+t.loopToken.oclIsUndefined();
+
+helper def: "iter" : String =
+iter;
+
+helper def: "t.context" : String =
+t.context;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "false" : String =
+false;
+
+helper def: "loopT.iterations - 1" : String =
+loopT.iterations - 1;
+
+helper def: "false" : String =
+false;
+
+helper def: "0" : String =
+0;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "'FCFS'" : String =
+'FCFS';
+
+helper def: "false" : String =
+false;
+
+helper def: "PRS.queue->append(t)" : String =
+PRS.queue->append(t);
+
+helper def: "st.countDown" : String =
+st.countDown;
+
+helper def: "st.countDown - T" : String =
+st.countDown - T;
+
+helper def: "rTime" : String =
+rTime;
+
+helper def: "eMotions.parseExp(PRD.specification_ParametericResourceDemand.specification, t.context) / eMotions.parseExp(PRS.processingRate_ProcessingResourceSpecification.specification, t.context)" : String =
+eMotions.parseExp(PRD.specification_ParametericResourceDemand.specification, t.context) / eMotions.parseExp(PRS.processingRate_ProcessingResourceSpecification.specification, t.context);
+
+helper def: "'FCFS'" : String =
+'FCFS';
+
+helper def: "false" : String =
+false;
+
+helper def: "PRS.queue->indexOf(t) <= PRS.numberOfReplicas" : String =
+PRS.queue->indexOf(t) <= PRS.numberOfReplicas;
+
+helper def: "PRS.queue->excluding(t)" : String =
+PRS.queue->excluding(t);
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "eMotions.parseExp(loop.loopIteration_Loop.specification, t.context)" : String =
+eMotions.parseExp(loop.loopIteration_Loop.specification, t.context);
+
+helper def: "false" : String =
+false;
+
+helper def: "t.loopToken.oclIsUndefined()" : String =
+t.loopToken.oclIsUndefined();
+
+helper def: "iter" : String =
+iter;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "false" : String =
+false;
+
+helper def: "loopT.iterations > 0" : String =
+loopT.iterations > 0;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "false" : String =
+false;
+
+helper def: "loopT.iterations > 0" : String =
+loopT.iterations > 0;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "b.branches_Branch->collect(S | (S.branchProbability * 1000).round())->asSequence()" : String =
+b.branches_Branch->collect(S | (S.branchProbability * 1000).round())->asSequence();
+
+helper def: "false" : String =
+false;
+
+helper def: "t.prob = 0" : String =
+t.prob = 0;
+
+helper def: "eMotions.random(1000) + 1" : String =
+eMotions.random(1000) + 1;
+
+helper def: "auxSeq" : String =
+auxSeq;
+
+helper def: "0" : String =
+0;
+
+helper def: "bA.branches_Branch->asSequence()->indexOf(bT)" : String =
+bA.branches_Branch->asSequence()->indexOf(bT);
+
+helper def: "false" : String =
+false;
+
+helper def: "ind = t.branchNumber" : String =
+ind = t.branchNumber;
+
+helper def: "0" : String =
+0;
+
+helper def: "0" : String =
+0;
+
+helper def: "Sequence{}" : String =
+Sequence{};
+
+helper def: "0" : String =
+0;
+
+helper def: "true" : String =
+true;
+
+helper def: "0" : String =
+0;
+
+helper def: "false" : String =
+false;
+
+helper def: "loopT.iterations - 1" : String =
+loopT.iterations - 1;
+
+helper def: "false" : String =
+false;
+
+helper def: "0" : String =
+0;
+
+helper def: "bA.branchTransitions_Branch->asSequence()->indexOf(bT)" : String =
+bA.branchTransitions_Branch->asSequence()->indexOf(bT);
+
+helper def: "false" : String =
+false;
+
+helper def: "ind = t.branchNumber" : String =
+ind = t.branchNumber;
+
+helper def: "0" : String =
+0;
+
+helper def: "0" : String =
+0;
+
+helper def: "0" : String =
+0;
+
+helper def: "ow.sandTimer.oclIsUndefined()" : String =
+ow.sandTimer.oclIsUndefined();
+
